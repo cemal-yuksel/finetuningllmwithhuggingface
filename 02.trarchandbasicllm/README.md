@@ -48,7 +48,7 @@ flowchart LR
     
     CTX --> DEC["🟢 DECODER"]
     DEC --> DECA["🔗 Self-Attention<br/>↓<br/>🔄 Cross-Attention<br/>↓<br/>↻ N katman"]
-    DECA --> OUT["✅ OUTPUT<br/>Çay zamanı<br/>geldi"]
+    DECA --> OUT["✅ OUTPUT<br/>Али взе заем<br/>от банката."]
     
     CTX -.-> DECA
     
