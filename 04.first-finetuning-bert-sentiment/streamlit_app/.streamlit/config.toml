@@ -1,0 +1,34 @@
+# ============================================================================
+# 🎨 Streamlit Tema Konfigürasyonu - Pastel Edition
+# ============================================================================
+
+[theme]
+# Temel renkler (Dark Pastel)
+primaryColor = "#6b5b95"        # Dark purple - Ana vurgu rengi
+backgroundColor = "#1a1a2e"      # Dark blue-gray - Arka plan
+secondaryBackgroundColor = "#16213e"  # Darker blue-gray - İkinci arka plan
+textColor = "#ffffff"           # Beyaz - Ana metin
+font = "sans serif"             # Modern sans-serif font
+
+# ============================================================================
+# 🖥️ Sunucu Ayarları
+# ============================================================================
+
+[server]
+# Port ayarları
+port = 8501
+enableXsrfProtection = true
+maxUploadSize = 200
+
+# Headless mod (production için)
+headless = false
+
+# ============================================================================
+# 🎯 Browser Ayarları
+# ============================================================================
+
+[browser]
+# Otomatik açılma
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501

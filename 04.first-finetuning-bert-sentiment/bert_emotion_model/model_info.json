@@ -1,0 +1,11 @@
+{
+  "model_name": "bert-base-uncased",
+  "num_labels": 6,
+  "max_length": 66,
+  "test_accuracy": 0.931,
+  "test_weighted_f1": 0.9306068433159581,
+  "training_time_minutes": 72.2338326772054,
+  "epochs": 3,
+  "learning_rate": 2e-05,
+  "batch_size": 8
+}
